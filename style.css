@@ -1,0 +1,69 @@
+/* Add application styles & imports to this file! */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image:url(https://images.unsplash.com/photo-1563833140771-0ccea37592be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+
+}
+.navbar ul {
+    padding: 0px;
+}
+
+.navbar ul li {
+    background-color:#fce745;
+    float:left;
+    list-style: none;
+    width: 190px;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+.navbar ul li a{
+    font-size: 25px;
+    font-weight: bold;
+    color:black;
+
+}
+
+.navbar{
+    width: 90%;
+    height: 50px;
+    line-height: 50px;
+    margin:0px auto;
+}
+.navbar ul li ul{
+    display: none;
+}
+.navbar ul li:hover > ul{
+    display:block;
+}
+
+.navbar ul li:hover{
+    background-color: cornflowerblue;
+    opacity: 1;
+}
+
+
+.navbar ul li ul li{
+    position: relative;
+}
+.navbar ul li ul li ul{
+    position: absolute;
+    left: 190px;
+    top: 0px;
+}
+
+a:link, a:visited {
+    color: (internal value);
+    text-decoration: none;
+    cursor: auto;
+  }
