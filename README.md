@@ -3,9 +3,6 @@ NavBar with HTML and CSS only.
 
 Click Here to See the End Result : 
 
-https://manubar.stackblitz.io/
+[SeeLive](https://manubar.stackblitz.io/)
 
-
-https://manubar.stackblitz.io/
-
-https://manubar.stackblitz.io/
+![](https://github.com/u4saif/NavBar-/blob/master/image.png)
